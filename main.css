@@ -1,0 +1,70 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    block-size: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+/*main img{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: auto;
+    opacity: 0.5;
+}*/
+
+.lista li a{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: rgba(28, 28, 28, 0.579);
+    font-size: 30px;
+}
+
+li{
+    margin: 5px 0;
+}
+
+#divAddTarefa{
+    display: none;
+}
+
+.container h1 a{
+    margin: 100px auto;
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: 50px;
+}  
+
+button{
+    padding: 9px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.141);
+    background-color: rgba(255, 250, 250, 0.687);
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.362);
+}
+
+button:active{
+    background-color: rgb(22, 185, 255);
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-bottom: 0.3px solid rgba(0, 0, 0, 0.217);
+    font-size: 15px;
+}
