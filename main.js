@@ -7,7 +7,7 @@ function verString(){
 $(document).ready(function(){
 
     $('.ListaDeTarefas').click(function(){
-        $('#divAddTarefa').slideDown();
+        $('#divAddTarefa').slideToggle();
     })
     var numeroTarefas = 0
     var listaTarefas = []
