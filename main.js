@@ -1,4 +1,3 @@
-
 function verString(){
     var stringTarefa = document.querySelector('p a')
     console.log(stringTarefa)
@@ -28,7 +27,6 @@ $(document).ready(function(){
         $(novaTarefa).appendTo('ul');
 
         verString();
-
 
         $('.inputTarefa').val('')
 
