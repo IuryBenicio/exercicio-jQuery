@@ -32,11 +32,10 @@ $(document).ready(function(){
 
         $('.inputTarefa').val('')
 
-    })
-
-    $('.lista').click(function(){
-        $('p a').css({"text-decoration" : "line-through"})
-        numeroTarefas -= 1
+        $(novaTarefa).click(function(){
+            $(this).css({"text-decoration" : "line-through"})
+            numeroTarefas -= 1
+        })
     })
 })
 
